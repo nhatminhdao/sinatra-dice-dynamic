@@ -1,0 +1,13 @@
+<!--/views/flexible.erb-->
+
+<%#= params.fetch("alice") %>
+
+<h1><%= @num_dice %>d<%= @num_sides%></h1>
+
+<ul>
+  <% @rolls.each do |a_roll| %>
+    <li>
+      <%= a_roll %>
+    </li>
+  <% end %>
+</ul>
